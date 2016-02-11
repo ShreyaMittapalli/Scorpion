@@ -1,5 +1,7 @@
 Scorpion::Application.routes.draw do
   root :to => 'pages#home'
+  get "about" => "pages#about"
+  get "example" => "pages#example"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
